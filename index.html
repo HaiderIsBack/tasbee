@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Tasbeeh</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+<style>
+body{
+background-color : teal;
+}
+.content {
+text-align: center;
+font-size : 35px;
+}
+
+p{
+font-size : 120px;
+color :white;
+font-weight : bold;
+font-family: 'Nunito', sans-serif;
+text-shadow: 2px 2px 4px black;
+text-align: center;
+}
+
+.btn-minus{
+	text-shadow: 2px 2px 4px black;
+	padding :19px 19px;
+	width : 140px;
+	height : 130px;
+	margin-left : 220px;
+	margin-top: 350px;
+	box-shadow: 2px 3px black;
+	display : inline-block ;
+text-align: center-right;
+float: center;
+font-size : 45px;
+font-weight: 500;
+background-color : maroon ;
+color : white;
+border-radius : 12px;
+border: transparent ;
+}
+
+.btn-plus{
+	text-shadow: 2px 2px 4px black;
+	padding :19px 19px;
+	width : 140px;
+	height : 130px;
+	margin-left : 20px;
+	margin-top: 350px;
+	box-shadow: 2px 3px black;
+	display : inline-block ;
+text-align: center-right;
+float: center;
+font-size : 45px;
+font-weight: 500;
+background-color : maroon ;
+color : white;
+border-radius : 12px;
+border: transparent ;
+}
+
+.btn-reset{
+	text-shadow: 2px 2px 4px black;
+	padding :19px 19px;
+	width : 200px;
+	height : 130px;
+	margin-left: 20px;
+	margin-top: 350px;
+	box-shadow: 2px 3px black;
+	display : inline-block ;
+text-align: center-right;
+float: center;
+font-size : 45px;
+font-weight: 500;
+background-color : maroon ;
+color : white;
+border-radius : 12px;
+border: transparent ;
+}
+
+.title {
+font-size : 200px;
+color : gold;
+margin-top : 20px;
+font-family: 'Nunito', sans-serif;
+text-shadow: 2px 2px 4px black;
+}
+
+
+</style> 
+</head>
+<body>
+<div class="content">
+<h1 class="title">Tasbeeh</h1>
+<h4>By Syed Zulqarnain Haider</h4>
+</div>
+<p id="count_btn"><b>0</b></p>
+<button class="btn-minus" onclick="decrement ()">-</button>
+<button class="btn-reset" onclick="reset ()">Reset</button>
+<button class="btn-plus" onclick="increment ()">+</button>
+</body>
+<script src="script.js"></script>
+</html>
